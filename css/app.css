@@ -1,0 +1,417 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	text-align: center !important;
+
+}
+header
+{
+	background-color: #9c88ff;
+	color: white;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+main
+{
+	background-color: #FFB6C1;
+	color: white;
+}
+footer
+{
+	background-color: #9c88ff;
+	color: white;
+}
+
+header, footer
+{
+	padding: 30px;
+}
+main
+{
+	text-align: center;
+	display: block;
+	width: 100%;
+}
+header a
+{
+	display: inline;
+	color: white;
+	background-color: #2F4F4F;
+	padding: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 15px;
+	border: 3px solid white;
+	width:100px;
+	margin: 10px;
+
+}
+main a
+{
+	display: inline-block;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+header a:hover,
+main a:hover
+{
+	color: white;
+	background-color: greenyellow;
+}
+
+.shortTermin{
+	color: blue;
+}
+h1 {
+	color: blue;
+	background-color: greenyellow;
+}
+
+.flexibel
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;	
+	justify-content: space-between;
+}
+
+.produktvorschau
+{
+	display: block;
+	background-color: #000099;
+	padding: 10px;
+	margin: 10px;	
+	width: 300px;
+	height: 320px;
+	text-align: center;
+}
+
+.produktvorschau img
+{
+	height: 150px;
+}
+
+.produktvorschau
+{
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+.produktvorschau:hover
+{
+	color: white;	
+	background-color: #9999ff;
+}
+
+.produktvorschau a
+{
+	display: block;
+	color: #000099;
+	background-color: #3333ff;
+	padding: 10px;
+	text-decoration: none;
+}
+.produktvorschau a:hover
+{
+	color: white;	
+	background-color: #6666ff;
+}
+
+.produktdetail
+{
+	background-color: #000099;
+	padding: 20px;
+	border-radius: 10px;	
+}
+
+.calendarCurrent 
+{
+	text-align: center;
+	display: inline-block;
+	background-color: yellow;
+	border-radius: 25px;
+	min-height: 250px;
+	box-shadow: 8px -5px 6px 1px rgba(0, 0, 0, 0.2);
+
+}
+.calendarOtherMonths
+{
+	text-align: center;
+	display: inline-block;
+	background-color: #e84118;
+	border-radius: 25px 25px 25px 0;
+	min-height: 250px;
+	box-shadow: 8px -5px 6px 1px rgba(0, 0, 0, 0.2);
+}
+.selectedMonth
+{
+	text-align: center !important;
+	margin: auto !important; 
+	display: inline-block;
+	background-color: red;
+	border-radius: 25px 25px 25px 0;
+	min-height: 500px;
+	box-shadow: 8px -5px 6px 1px rgba(0, 0, 0, 0.2);
+}
+.warning
+{
+	color: #EA2027;
+	padding: 8px;
+	font-weight: bolder;
+}
+.topic
+{
+	display: inline;
+	font-size:20px;
+	color: blue;
+	vertical-align: baseline;
+}
+.bigTh
+{
+	font-size:20px;
+	border: 1px solid yellow;
+}
+.bigTd
+{
+	width: 200px;
+	height: 120px;
+	padding: 5px;
+	margin-left:100px;
+	border: 1px solid yellow;
+	vertical-align: baseline;
+	text-align: left;
+	
+	font-size:20px;
+}
+.bigTableTitle
+{
+	text-align: center;
+	width:950px;
+	font-size:50px;
+	padding:10px;
+	border-radius:20px;
+	color:white;
+}
+caption
+{
+	text-align: center;
+	display: inline-block;
+	min-height:40px;
+}
+.container
+{
+	min-width:1000px;
+}
+.kleinTableTitle
+{
+
+	background-color: A52A2A;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid white;
+	min-width:200px
+
+}
+.kleinTableTitle:hover
+{
+	color: white;
+	background-color: greenyellow;
+}
+th
+{
+	padding: 5px;
+	background-color: black;
+	color: white;
+	font-size: small;
+	width: 25px;
+}
+td
+{
+	padding: 5px;
+	background-color: #A52A2A;
+	color: white;
+	font-size: small;
+}
+h4
+{
+
+}
+.day
+{
+	color:white;
+}
+.today
+{
+	color:blue;
+	background-color: yellow;
+	font-weight: bolder;
+}
+.appointmentDay
+{
+	color:black;
+	background-color: #7bed9f;
+	font-weight: bolder;
+}
+
+input,select,textarea
+{
+	padding: 10px;
+	background-color: #aaccff;
+	font-weight: bold;
+	border-radius: 5px;
+	border: 0px;
+	margin: 10px;
+}
+input:hover,select:hover,textarea:hover
+{
+	background-color: #ffcccc;
+}
+input[type="submit"]
+{
+	background-color: #B22222;
+	color: white;
+	padding: 10px;
+}
+input[type="submit"]:hover
+{
+	background-color: greenyellow;
+	color: white;
+}
+
+input[type="submit"].button_aktiv
+{
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
+input[type="submit"].button_inaktiv
+{
+	background-color: orange;
+	color: darkblue;
+	padding: 10px;
+}
+input[type="submit"].button_aktiv:hover,
+input[type="submit"].button_inaktiv:hover
+{
+	background-color: red;
+}
+
+.gruppe
+{
+	background-color: #000099;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+}
+.gruppe:hover
+{
+	background-color: #6699ff;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+}
+.bildblock
+{
+	background-color: #cccccc;
+}
+.mitteilung
+{
+	background-color: cyan;
+	font-weight: bold;
+	color: darkblue;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.bestellung
+{
+	display: block;
+	color: #white;
+	background-color: #3333ff;
+	padding: 10px;
+	border-radius: 10px;
+	width: 300px;
+	margin: 10px;
+}
+
+.status_erledigt
+{
+	background-color: #009900;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;
+}
+.status_erledigt:hover
+{
+	background-color: #00aa00 !important;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;	
+}
+
+.status_offen
+{
+	background-color: #ffff00;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;	
+}
+.status_offen:hover
+{
+	background-color: #ff0000 !important;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px;	
+}
+
+form
+{
+	display: inline-block;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 30px;
+	min-width:150px;
+	margin-left: 50px;
+	height: 50px;
+}
+p{
+	color: black;
+	font-weight: bold;
+	font-size: large;
+}
+.tableAppointment
+{
+	text-align: center !important;
+	margin: auto !important; 
+	display: inline-block;
+	background-color: #f9ca24;
+	box-shadow: 8px -5px 6px 1px rgba(0, 0, 0, 0.2);
+}
+.tableTh
+{
+	padding:10px;
+	font-size:25px;
+	width:20%;
+	color:yellow;
+}
+.tableTd
+{
+	padding:5px;
+	font-size:25px;
+	width:20%;
+}
+.search
+{
+	display:inline-block;	
+	width: 700px;
+	height: 60px;
+	margin-left:0;
+}
+
